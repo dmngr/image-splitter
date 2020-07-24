@@ -1,16 +1,21 @@
 {
-  "name": "split-images",
-  "version": "1.0.4",
+  "name": "@deliverymanager/image-splitter",
+  "version": "2.0.0",
   "description": "",
   "main": "lib/imageSplitter.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": ["split image","split","image to chunks","image splitter"],
-  "author": "Achilles Moraites",
+  "keywords": [
+    "split image",
+    "split",
+    "image to chunks",
+    "image splitter"
+  ],
+  "author": "www.deliverymanager.gr",
   "license": "MIT",
   "dependencies": {
-    "jimp": "^0.6.1"
+    "jimp": "^0.14.0"
   },
   "devDependencies": {},
   "repository": {
