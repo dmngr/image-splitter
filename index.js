@@ -13,9 +13,9 @@ const imageSplitter = require('./lib/imageSplitter.js');
     let i = 0;
     chuncks.forEach(c => {
       i++;
-      actions.push(fs.writeFile(`slice_${i}.png`, c));
+      actions.push(fs.writeFileSync(`imgs/slice_${i}.png`, c));
     });
-    await Promise.all(actions);
+    return await Promise.all(actions);
   } catch (e) {
     console.log(e);
   }
