@@ -1,6 +1,6 @@
 {
   "name": "@deliverymanager/image-splitter",
-  "version": "2.0.3",
+  "version": "2.0.4",
   "description": "",
   "main": "lib/imageSplitter.js",
   "scripts": {
